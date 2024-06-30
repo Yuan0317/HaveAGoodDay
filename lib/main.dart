@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'GratitudeEntryPage.dart';
+import 'meditationPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,11 +55,11 @@ class HomePage extends StatelessWidget {
           children: [
             ElevatedButton.icon(
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //       builder: (context) => MeditationPage()),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => meditationPage()),
+                );
 
               },
               icon: Icon(Icons.self_improvement),

@@ -33,7 +33,6 @@ class GratitudeHistoryPage extends StatelessWidget {
                     // 可以继续添加其他事件或字段
                   ],
                 ),
-
                 // 根据需要显示更多字段或格式化时间戳
               );
             }).toList(),
